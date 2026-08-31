@@ -117,8 +117,9 @@ arr =np.array([
 ])
 
 print(arr)
-print(arr.ndim)   # 2 
-print(arr.size)   # 12 
-print(arr.shape)  #(4,3) 
+print(arr.ndim)   # 2  number  dimension
+print(arr.size)   # 12   total number of elements
+print(arr.shape)  #(4,3)   row  col 
 print(arr.dtype)  # int 
 print(arr.itemsize) # bytes
+
