@@ -3,7 +3,8 @@
 import numpy as np
 
 # arange ,reshape :
-"""arr = np.arange(1,10)  # start stop step 
+"""
+arr = np.arange(1,10)  # start stop step 
 arr = np.arange(1,10,2)  # start stop step 
 
 arr = np.arange(1,10).reshape(3,3)  
