@@ -2,7 +2,6 @@ import  numpy as np
 
 # aithematic  : + - * / % // 
 
-
 """
 a=np.array([
     [1,2,3],
@@ -35,7 +34,6 @@ a=np.array([
     [7,6,4],
     [5,8,9]
 ])
-
 b=np.array([
     [11,34,12],
     [23,45,67],
@@ -51,12 +49,12 @@ print("matrix multiplication of  two  array is  \n",a@b)  # matrix multiplicatio
 
 a=np.array([
     [11,22,23],
-    [7,6,4],
-    [5,8,9]
+    [7, 6,4],
+    [5, 8, 9]
 ])
-# print(np.sum(a))
-# print(np.sum(a,axis=0))  # col wise sum 
-# print(np.sum(a,axis=1))  # row wise sum 
+# print(np.sum(a))  # 11+22+23+7+6+4+5+8+9=
+# print(np.sum(a,axis=0))  # col wise sum : 23 36 45 
+# print(np.sum(a,axis=1))  # row wise sum   
 
 # print(np.min(a))
 # print(np.min(a,axis=0))  # col wise min
@@ -74,7 +72,7 @@ a=np.array([
 # print(np.argmax(a,axis=0))  # [0,0,0]   # mayu 
 # print(np.argmax(a,axis=1))  # [2,0,2]   # vansh 
 
-a=np.array([
+"""a=np.array([
     [11,22,23],
     [7,6,4],
     [5,8,9]
@@ -85,3 +83,4 @@ print(np.sort(a,axis=0))  # col wise sort
 
 print(np.argsort(a,axis=0))  # col wise sort
 print(np.argsort(a,axis=1))  # row wise sort
+"""
