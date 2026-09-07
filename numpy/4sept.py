@@ -43,5 +43,7 @@ print(np.log10(arr))
 
 # np.sin ,np.cos ,np.tan : 
 
-arr =np.array([2,3,5,9,10])
+"""arr =np.array([2,3,5,9,10])
 print(np.sin(arr))
+"""
+
