@@ -1,0 +1,7 @@
+id,name,age,marks
+1,john,20,34
+2,tom,25,
+3,mike,30,78
+4,jack,,90
+5,bob,40,99
+6,alice,45,98
