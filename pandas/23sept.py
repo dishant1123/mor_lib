@@ -46,8 +46,8 @@ print(df)
 """
 2 ways  : 
 
-1 .dict
-2. list
+1.dict
+2.list
 """
 # using dict dataframe :
 """df = pd.DataFrame({
