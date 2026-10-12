@@ -57,3 +57,14 @@ df=df.drop(['id','age'],axis =1)
 print(df)
 
 # dropna : next session 
+"""
+
+1. create the  dataframe with  missing value  using  dict .
+2. drop the  missing value .
+3. using  fillna()  function and  fill the  salary  with  mean  of  salary .
+4. drop  ----> rowise and  colwise
+5. descibe the  difference  between  1. dropna()  and  drop() 2. info() and  describe()
+6. print the  only  those name who's  salary is  more than  4000 .  only two col display name ,salary ----> using  query function  ,  using  loc  iloc.
+
+"""
+
