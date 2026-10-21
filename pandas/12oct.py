@@ -1,7 +1,7 @@
 import pandas as pd
 import  numpy as np 
 
-"""
+
 df= pd.DataFrame({
     "id" :[np.nan,2,3,4,5],
     "name" :[np.nan,"peter","paul","george","ringo"],
@@ -9,7 +9,7 @@ df= pd.DataFrame({
     "age" :[np.nan,34,np.nan,56,np.nan]
 })
 print("original : \n",df)
-"""
+
 # dropna  : 
 
 """
@@ -21,7 +21,8 @@ print("dropna : \n",result)
 
 # sort_values , sort_index :
 
-"""df= pd.DataFrame({
+"""
+df= pd.DataFrame({
     "id" :[1,2,3,4,5],
     "name" :["peter","paul","george","ringo","mary"],
     "salary":[12000,24000,56000,78000,34000],
