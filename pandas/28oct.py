@@ -81,7 +81,7 @@ sns.heatmap(data=graph,annot=True,cmap="coolwarm")
 plt.show()
 """
 
-import pandas as pd
+"""import pandas as pd
 from ydata_profiling import ProfileReport
 
 df = pd.read_csv("pandas/flipkart_orders.csv")
@@ -92,5 +92,5 @@ report = ProfileReport(
 )
 
 report.to_file("report.html")
-
+"""
 # sweetviz  lib -----> using generate the EDA report     
