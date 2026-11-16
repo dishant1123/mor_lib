@@ -12,11 +12,11 @@ pip install matplotlib.pyplot :
     3. plt.scatter() : scatter graph
     4. plt.hist() : histogram graph
     5. plt.pie() : pie chart
-    6.plt.box() : box plot -----> outlier detection
+    6.plt.box() : box plot -----> outlier detection ---->IQR 
 
 attributes / properties of graph :
-    1.plt.xlabel() ,plt.ylabel() 
-    2. plt.title() 
+    1.plt.xlabel() ,plt.ylabel()  ----> x axis  label  , y axis  label 
+    2. plt.title()  ----> graph  ---> title 
     3. plt.legend() -----> corner of graph ----> mark 
     4. plt.grid() -----> grid lines 
     5. plt.show() -----> display graph
