@@ -62,8 +62,3 @@ plt.xticks(rotation=45)
 plt.legend("marks",loc="upper left")
 plt.show()
 
-#box plot  : 
-"""
-box plot use for outlier
-"""
-
